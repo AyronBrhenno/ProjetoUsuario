@@ -1,0 +1,28 @@
+body {
+    background-color: #d0d4dc;
+}
+
+.Registro {
+    margin: 0 auto;
+    margin-top: 7%;
+    padding: 10px;
+    height: 70%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+}
+.Registro h1 {
+    text-align: center;
+}
+
+.Inputs {
+    margin: 0 auto;
+    width: 50%;
+    align-content: center;
+}
+
+.Buttons {
+    margin: 0 auto;
+    margin-left: 43%;
+    width: 100%;
+}

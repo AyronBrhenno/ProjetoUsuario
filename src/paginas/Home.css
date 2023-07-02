@@ -1,0 +1,18 @@
+.Home {
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 50px;
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+}
+.Buttons {
+    margin: 0 auto;
+    margin-right: 17%;
+    width: 100%;
+}
+
+body{
+    background-color: #d0d4dc;
+  }
