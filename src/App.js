@@ -1,4 +1,3 @@
-import "./App.css";
 import * as React from "react";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
@@ -14,6 +13,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import "./App.css";
 
 function App() {
   return (
@@ -40,7 +40,7 @@ function ImageAvatars() {
   );
 }
 
-//Campo de informações 
+//Campo de informações
 function InformacaoPessoal() {
   return (
     <div className="InformacaoPessoal">
