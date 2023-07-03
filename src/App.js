@@ -9,7 +9,7 @@ import Login from "./paginas/login/Login";
 import Atividades from "./paginas/atividades/Atividades";
 import Sobre from "./paginas/sobre/Sobre";
 import Imagem from "./paginas/imagens/Imagem";
-import Rating from "./rating/Avaliacao";
+import Rating from "./paginas/rating/Avaliacao";
 
 export default function App() {
   return (
