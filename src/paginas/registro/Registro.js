@@ -70,6 +70,7 @@ function Inputs() {
       </Box>
       <div className="Buttonsa">
         <Button
+          className="BL"
           variant="contained"
           href="info"
           onClick={Enviar(textInputNome, textInputEmail, textInputTelefone)}
