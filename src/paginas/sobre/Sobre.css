@@ -1,0 +1,30 @@
+body {
+    background-color: #d0d4dc;
+}
+
+.Sobre {
+    margin: 0 auto;
+    margin-top: 7%;
+    padding: 10px;
+    height: 70%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+    text-align: center;
+}
+
+.Avatar {
+    margin: 0 auto;
+    width: 12%;
+    padding: 10px;
+  }
+
+.Buttons {
+    margin: 0 auto;
+    text-align: right;
+    width: 100%;
+}
+
+.BL {
+    display: inline-block;
+}

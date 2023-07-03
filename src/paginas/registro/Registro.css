@@ -23,6 +23,10 @@ body {
 
 .Buttonsa {
     margin: 0 auto;
-    margin-left: 43%;
+    text-align: center;
     width: 100%;
+}
+
+.BL {
+    display: inline-block;
 }

@@ -13,10 +13,13 @@ function Registro() {
     </div>
   );
 }
+
 function Inputs() {
   const [textInputNome, setTextInputNome] = useState("");
   const [textInputEmail, setTextInputEmail] = useState("");
   const [textInputTelefone, setTextInputTelefone] = useState("");
+  const [textInputSenha, setTextInputSenha] = useState("");
+
 
   const handleTextInputChangeNome = (event) => {
     setTextInputNome(event.target.value);
@@ -26,6 +29,9 @@ function Inputs() {
   };
   const handleTextInputChangeTelefone = (event) => {
     setTextInputTelefone(event.target.value);
+  };
+  const handleTextInputChangeSenha = (event) => {
+    setTextInputSenha(event.target.value);
   };
   return (
     <div className="Inputs">
@@ -66,13 +72,23 @@ function Inputs() {
           />
           <br></br>
           <br></br>
+          <TextField
+            id="SenhaField"
+            label="Senha"
+            fullWidth
+            value={textInputSenha}
+            onChange={handleTextInputChangeSenha}
+          />
+          <br></br>
+          <br></br>
         </div>
       </Box>
       <div className="Buttonsa">
         <Button
+          className="BL"
           variant="contained"
           href="info"
-          onClick={Enviar(textInputNome, textInputEmail, textInputTelefone)}
+          onClick={Enviar(textInputNome, textInputEmail, textInputTelefone, textInputSenha)}
         >
           Enviar
         </Button>
@@ -81,7 +97,7 @@ function Inputs() {
   );
 }
 
-function Enviar(nome, email, telefone) {
-  console.log(nome, email, telefone)
+function Enviar(nome, email, telefone, senha) {
+  console.log(nome, email, telefone, senha)
 }
 export default Registro;
