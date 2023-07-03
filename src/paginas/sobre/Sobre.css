@@ -21,8 +21,13 @@ body {
 
 .Buttons {
     margin: 0 auto;
-    text-align: right;
     width: 100%;
+    text-align: right;
+}
+.Buttons2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 .BL {

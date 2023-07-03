@@ -1,0 +1,14 @@
+body {
+    background-color: #d0d4dc;
+}
+
+.Avaliacao {
+    margin: 0 auto;
+    margin-top: 7%;
+    padding: 10px;
+    height: 70%;
+    width: 50%;
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+    text-align: center;
+}

@@ -21,6 +21,9 @@ function Buttons() {
         <Button variant="contained" href="registro">
           Registrar
         </Button>
+        <Button variant="contained" href="rating">
+          Rating
+        </Button>
       </Stack>
     </div>
   );

@@ -23,6 +23,7 @@ function Informacao(){
     <ImageAvatars />
     <InformacaoPessoal />
     <DenseTable />
+    <Buttons />
   </div>
   );
 }
