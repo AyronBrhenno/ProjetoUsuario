@@ -14,15 +14,17 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import "./Informacao.css";
+import Button from "@mui/material/Button";
 
-function Informacao(){
+function Informacao() {
 
-  return(
-  <div className="Informacao">
-    <ImageAvatars />
-    <InformacaoPessoal />
-    <DenseTable />
-  </div>
+  return (
+    <div className="Informacao">
+      <ImageAvatars />
+      <InformacaoPessoal />
+      <DenseTable />
+      <Buttons />
+    </div>
   );
 }
 
@@ -126,6 +128,24 @@ function DenseTable() {
         </Table>
       </TableContainer>
     </List>
+  );
+}
+
+function Buttons() {
+  return (
+    <div className="Buttons">
+      <Stack spacing={2} direction="row">
+        <Button variant="contained" href="ProjetoUsuario">
+          Home
+        </Button>
+        <Button variant="contained" href="atividades">
+          Atividades
+        </Button>
+        <Button variant="contained" href="sobremim">
+          Sobre mim
+        </Button>
+      </Stack>
+    </div>
   );
 }
 

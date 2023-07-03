@@ -15,7 +15,7 @@ function Buttons() {
   return (
     <div className="Buttons">
       <Stack spacing={2} direction="row">
-        <Button variant="contained" href="info">
+        <Button variant="contained" href="login">
           Login
         </Button>
         <Button variant="contained" href="registro">
