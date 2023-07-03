@@ -16,6 +16,7 @@ import Paper from "@mui/material/Paper";
 import "./Informacao.css";
 
 function Informacao(){
+
   return(
   <div className="Informacao">
     <ImageAvatars />
@@ -42,6 +43,7 @@ function ImageAvatars() {
 
 //Campo de informações
 function InformacaoPessoal() {
+
   return (
     <div className="InformacaoPessoal">
       <List

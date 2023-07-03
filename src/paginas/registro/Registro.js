@@ -68,7 +68,7 @@ function Inputs() {
           <br></br>
         </div>
       </Box>
-      <div className="Buttons">
+      <div className="Buttonsa">
         <Button
           variant="contained"
           href="info"
@@ -82,6 +82,6 @@ function Inputs() {
 }
 
 function Enviar(nome, email, telefone) {
-  
+  console.log(nome, email, telefone)
 }
 export default Registro;

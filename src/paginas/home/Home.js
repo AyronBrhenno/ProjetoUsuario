@@ -3,13 +3,14 @@ import "./Home.css";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 
-function Home() {
+function Home(props) {
   return (
     <div className="Home">
       <Buttons />
     </div>
   );
 }
+
 function Buttons() {
   return (
     <div className="Buttons">
